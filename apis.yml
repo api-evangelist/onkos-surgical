@@ -1,8 +1,30 @@
 aid: onkos-surgical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onkos-surgical.png
 name: Onkos Surgical
-description: Onkos Surgical is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Onkos Surgical is a privately held surgical oncology company founded in 2015 and
+  headquartered in Parsippany, New Jersey, focused on innovative solutions for
+  musculoskeletal oncology and complex orthopaedic procedures. Built on a digital
+  platform grounded in patient imaging analysis, personalized surgical planning and
+  advanced 3D printing, Onkos develops limb salvage systems, My3D personalized
+  solutions, uDesign on-demand personalized surgical plans, and antibacterial-coated
+  implants for tumor and revision orthopaedic applications. The company received the
+  first FDA De Novo approval of an antibacterial coating for tumor and revision
+  orthopaedic implants. Onkos does not currently publish a public developer API,
+  OpenAPI, SDKs, or developer portal; its public surfaces are the corporate website,
+  a product Instructions-for-Use (IFU) documentation library, and a surgeon training
+  portal.
 url: https://raw.githubusercontent.com/api-evangelist/onkos-surgical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Medical Devices
+- Surgical Oncology
+- Orthopaedics
+- Musculoskeletal Oncology
+- 3D Printing
+- Personalized Medicine
+- Healthcare
 apis: []
+common:
+- type: Website
+  url: https://onkossurgical.com/
+- type: Company
+  url: https://onkossurgical.com/company/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/onkossurgical
+- type: ProductDocumentation
+  url: https://onkossurgical.com/IFU/
+  name: Product Instructions for Use (IFU) Library
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
